@@ -1,0 +1,19 @@
+{
+  "name": "hltv-api",
+  "version": "1.0.0",
+  "description": "communicates with hltv.org to get your data as an API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hltv": "^3.3.2",
+    "nodemon": "^2.0.10",
+    "path": "^0.12.7"
+  }
+}
